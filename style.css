@@ -1,0 +1,50 @@
+.bdy{
+    background-color: #1e242b;
+}
+.white{
+    color: white;
+}
+
+.icon{
+    color:aquamarine;
+}
+.text{
+    margin:200px 20px 0px 20%;
+    flex:3;    
+}
+.uper{
+    display: flex;
+}
+.second-sec{
+    display: flex;
+    margin-top: 150px;
+}
+.green-box{
+    background-color: aquamarine;
+    height: 350px;
+    width: 300px;
+    margin:0px 20px 0px 10%;
+    
+    
+}
+#imge{
+    height: 370px;
+    width:300px;
+    margin:-50px 20px 0px 13%;
+    
+}
+.about-me{
+    margin:0px 0px 0px 9% ;
+    display: flex;
+}
+.green-line{    
+    float: left;
+    margin:20px 0px 0px 5%;
+    height: 2px;
+    width: 65%;
+    background-color: aquamarine;
+
+}
+.p{
+    
+}
