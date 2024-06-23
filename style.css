@@ -1,6 +1,5 @@
-.body{
+body{
     
-   
 }
 .bdy{
     background-color: #1e242b;
@@ -38,6 +37,9 @@
     margin:65px 20px 0px 10%;
     
     
+}
+#my-img{
+    height: 600px;
 }
 #imge{
     height: 370px;
@@ -119,3 +121,18 @@
 .nav-item:hover .icon {
     transform: translateY(-7px);
 }
+@media screen and (max-width: 480px) {
+   #media-query{
+    right: 0;
+   }
+   .hdr{
+    width: 530px;
+   }
+   .text{
+    margin:200px 20px 0px 4%;
+    flex:3;    
+     }
+     #my-img{
+        height: 550px;
+     }
+} 
