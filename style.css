@@ -1,5 +1,16 @@
+.body{
+    
+   
+}
 .bdy{
     background-color: #1e242b;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#imgek{
+    background-color: aquamarine;
+    border-radius:1600px 1px 10px 400px;
 }
 .white{
     color: white;
@@ -14,6 +25,7 @@
 }
 .uper{
     display: flex;
+   
 }
 .second-sec{
     display: flex;
@@ -23,7 +35,7 @@
     background-color: aquamarine;
     height: 350px;
     width: 300px;
-    margin:0px 20px 0px 10%;
+    margin:65px 20px 0px 10%;
     
     
 }
@@ -31,7 +43,7 @@
     height: 370px;
     width:300px;
     margin:-50px 20px 0px 13%;
-    
+   
 }
 .about-me{
     margin:0px 0px 0px 9% ;
@@ -45,6 +57,65 @@
     background-color: aquamarine;
 
 }
+#aqua{
+    color:aquamarine;
+}
+
 .p{
+    margin-left:9%;
     
+}
+.recent-project{
+    display: flex;
+    margin:100px 0px 0px 10%;
+}
+.personal-skill{
+    margin:130px 0px 0px 10%;
+}
+#btn{
+    color: aquamarine;
+    border-color: aquamarine;
+
+}
+#imge-left{
+    height: 370px;
+    width:300px;
+    margin:-50px 30px 0px -13%;
+   
+}
+#green-box-left{
+    background-color: aquamarine;
+    height: 350px;
+    width: 300px;
+    margin:80px 20px 0px 10%;
+    
+    
+}
+#green-line{    
+    float: left;
+    margin:20px 0px 0px 0px;
+    height: 2px;
+    width:9%;
+    background-color: aquamarine;
+
+}
+#skill-container{
+   
+}
+#progress{
+    width:680px;
+
+}
+.ml{
+    margin-left:10%;
+}
+.mt{
+    margin-top: 50px;
+}
+.nav-item .icon {
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover .icon {
+    transform: translateY(-7px);
 }
