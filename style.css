@@ -121,7 +121,7 @@ body{
 .nav-item:hover .icon {
     transform: translateY(-7px);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 510px) {
    #media-query{
     right: 0;
    }
@@ -133,6 +133,6 @@ body{
     flex:3;    
      }
      #my-img{
-        height: 450px;
+        height: 550px;
      }
 } 
