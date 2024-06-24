@@ -1,6 +1,4 @@
-body{
-    
-}
+
 .bdy{
     background-color: #1e242b;
     overflow-x: hidden;
@@ -10,6 +8,7 @@ body{
 #imgek{
     background-color: aquamarine;
     border-radius:1600px 1px 10px 400px;
+    
 }
 .white{
     color: white;
@@ -27,15 +26,14 @@ body{
    
 }
 .second-sec{
-    display: flex;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 .green-box{
     background-color: aquamarine;
     height: 350px;
     width: 300px;
     margin:65px 20px 0px 10%;
-    
+    float: left;
     
 }
 #my-img{
@@ -69,7 +67,7 @@ body{
 }
 .recent-project{
     display: flex;
-    margin:100px 0px 0px 10%;
+    margin:400px 0px 0px 10%;
 }
 .personal-skill{
     margin:130px 0px 0px 10%;
@@ -89,8 +87,8 @@ body{
     background-color: aquamarine;
     height: 350px;
     width: 300px;
-    margin:80px 20px 0px 10%;
-    
+    margin:50px 20px 0px 10%;
+    float:right;
     
 }
 #green-line{    
@@ -101,8 +99,10 @@ body{
     background-color: aquamarine;
 
 }
-#skill-container{
-   
+
+#prsnl-s{
+    color: white;
+    margin-left:14%;
 }
 #progress{
     width:680px;
@@ -121,18 +121,85 @@ body{
 .nav-item:hover .icon {
     transform: translateY(-7px);
 }
+.text-container{
+    margin-top: 70px;
+}
+#prsn-t{
+    margin: 50px 0px 50px 10%;
+}
 @media screen and (max-width: 510px) {
    #media-query{
     right: 0;
+   }
+   .bdy{
+    padding: 0px;
+ 
    }
    .hdr{
     width: 530px;
    }
    .text{
-    margin:200px 20px 0px 4%;
-    flex:3;    
+    margin:200px 0px 0px 3px;
+    
      }
      #my-img{
         height: 450px;
+        margin-left:0px;
      }
+     .text{
+        margin:200px 20px 0px 5%;
+        flex:3;   
+     #prsnl-s{
+        margin-left:10%;
+     }
+    
+     #green-box-left{
+        background-color: aquamarine;
+        height: 270px;
+        width: 200px;
+        margin:80px 1% 0px 3%;
+       
+    }
+   
+    .ml{
+        margin-left: 0%
+    }
+    .uper{
+        width: 100%;
+    }
+    .green-box{
+        margin:0px 30px 0px 0px;
+        height: 270px;
+        width: 200px;
+    }
+    .p{ 
+        padding:4px;
+        margin: 0;
+    }
+    #imge{
+        height: 270px;
+        width:200px;
+        margin:-50px 20px 0px 13%;
+       
+    }
+    .recent-project{
+        display: flex;
+        margin:100px 0px 0px 10%;
+    }
+    #imge-left{
+        height: 270px;
+        width:200px;
+        margin:-50px 30px 0px -13%;
+       
+       
+    }
+    #prsn-t{
+        margin: 50px 0px 50px 1%;
+    }
+    #progress-con{
+        margin:0px 0px 0px 5%;
+    }
+    #footer{
+        margin-top:450px;
+    }
 } 
